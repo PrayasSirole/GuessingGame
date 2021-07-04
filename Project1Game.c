@@ -7,7 +7,7 @@ int main()
     int num, guess, nguesses=1;
     srand(time(0));
     num = rand()%100 + 1; //Generates random number bet^w 1 to 100
-    // printf("Number is %d \n");
+    // printf("@Prayas__ Number is %d \n");
     //keep running the loop until the number is guessed
     do{
         printf("Guess the number between 1 to 100 : \n");
@@ -22,6 +22,7 @@ int main()
             printf("You guessed it in %d attempts\n", nguesses);
         }
         nguesses++ ;
+        printf("@Prayas");
     }
     while(guess!=num);
     return 0;
